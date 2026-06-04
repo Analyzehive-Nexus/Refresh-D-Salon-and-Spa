@@ -17376,3 +17376,24 @@ body:has(.benefits-section) .page-header__title {
     text-align: center !important;
   }
 }
+
+/* Mobile sticky booking bar buttons state overrides to prevent white hover/focus bugs on tap */
+@media (max-width: 991px) {
+  .mobile-sticky-booking-bar a:first-child,
+  .mobile-sticky-booking-bar a:first-child:hover,
+  .mobile-sticky-booking-bar a:first-child:focus,
+  .mobile-sticky-booking-bar a:first-child:active {
+    background: transparent !important;
+    color: #c99374 !important;
+    border: 1px solid #c99374 !important;
+  }
+
+  .mobile-sticky-booking-bar a:last-child,
+  .mobile-sticky-booking-bar a:last-child:hover,
+  .mobile-sticky-booking-bar a:last-child:focus,
+  .mobile-sticky-booking-bar a:last-child:active {
+    background: linear-gradient(90deg, #c99374, #e8b48a) !important;
+    color: #0e0c0f !important;
+    border: none !important;
+  }
+}
