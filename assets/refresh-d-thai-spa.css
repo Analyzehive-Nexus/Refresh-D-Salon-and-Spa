@@ -17336,10 +17336,15 @@ body:has(.benefits-section) .page-header__title {
 @media (max-width: 991px) {
   .whatsapp-float {
     bottom: 95px !important;
+    z-index: 100002 !important;
   }
   .scroll-to-top {
     bottom: 175px !important;
     right: -28px !important;
+    z-index: 100001 !important;
+  }
+  .mobile-sticky-booking-bar {
+    z-index: 100000 !important;
   }
   .hero-trust-bar {
     margin-top: 40px !important;
@@ -17379,19 +17384,10 @@ body:has(.benefits-section) .page-header__title {
 
 /* Mobile sticky booking bar buttons state overrides to prevent white hover/focus bugs on tap */
 @media (max-width: 991px) {
-  .mobile-sticky-booking-bar a:first-child,
-  .mobile-sticky-booking-bar a:first-child:hover,
-  .mobile-sticky-booking-bar a:first-child:focus,
-  .mobile-sticky-booking-bar a:first-child:active {
-    background: transparent !important;
-    color: #c99374 !important;
-    border: 1px solid #c99374 !important;
-  }
-
-  .mobile-sticky-booking-bar a:last-child,
-  .mobile-sticky-booking-bar a:last-child:hover,
-  .mobile-sticky-booking-bar a:last-child:focus,
-  .mobile-sticky-booking-bar a:last-child:active {
+  .mobile-sticky-booking-bar a,
+  .mobile-sticky-booking-bar a:hover,
+  .mobile-sticky-booking-bar a:focus,
+  .mobile-sticky-booking-bar a:active {
     background: linear-gradient(90deg, #c99374, #e8b48a) !important;
     color: #0e0c0f !important;
     border: none !important;
