@@ -1,7 +1,5 @@
 # Refresh D Thai Spa - Codebase Documentation (Part 1: Core Website)
-
 This document contains the directory structure and source codes for the core files (HTML, CSS, JS, PHP, and README).
-
 ## 📂 Directory Structure
 ```text
 Refresh-D-Salon-and-Spa/
@@ -23,7 +21,6 @@ Refresh-D-Salon-and-Spa/
 ---
 
 ## 📄 Part 1 Source Code Files
-
 ### 🌐 File: `README.md`
 
 ````markdown
@@ -127,6 +124,7 @@ Running through a local web server ensures all paths, resources, and map assets 
 - **Phone**: +91 83108 05129
 - **Email**: customer.refresh@gmail.com
 - **Timings**: Monday to Sunday: 10:00 AM – 8:00 PM
+
 ````
 
 ---
@@ -185,7 +183,7 @@ if ( $name && $senderEmail && $message ) {
 ### 🌐 File: `assets/refresh-d-thai-spa.css`
 
 ```css
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Utility
@@ -17220,7 +17218,7 @@ body,
 ### 🌐 File: `assets/refresh-d-thai-spa.js`
 
 ```javascript
-﻿(function ($) {
+(function ($) {
   "use strict";
 
   /*-- Checkout Accoradin --*/
@@ -20786,7 +20784,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `contact.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21280,6 +21278,7 @@ function initLuxuryScrollReveals() {
 </body>
 
 </html>
+
 ```
 
 ---
@@ -21526,8 +21525,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Secure your therapeutic session in seconds. Confirm instantly with no upfront prepayment or hidden booking fees.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -21546,8 +21544,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Rest your body in the hands of our certified professionals, trained in traditional Thai, Balinese, and western modalities.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
@@ -21566,8 +21563,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Enjoy premium wellness at an exclusive rate. Save 10% on all online bookings using code <strong>PTS10</strong> at checkout.</p>
                         </div><!-- feature-item -->
                     </div>
                 </div>
@@ -22155,7 +22151,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Meeting</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    A quiet, personalized consultation with your therapist to identify key tension zones and tailor oil blends.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -22170,7 +22166,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Treatment</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Experience bespoke pressure, aromatic organic oils, and expert touch to melt your stress away.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -22185,7 +22181,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Finalizing</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Gently awaken with a soothing cup of post-massage organic herbal tea to anchor the restorative effects.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -22291,10 +22287,7 @@ function initLuxuryScrollReveals() {
                                 <p class="why-choose-one__highlighted">Book and enjoy our special treatments</p>
                                 <!-- /.why-choose-one__highlighted -->
 
-                                <p class="why-choose-one__text">Lorem ipsum simply free text available in the market. At vero
-                                    eos et
-                                    accusamus et iusto odio dig
-                                    ducimus qui blan.</p><!-- /.why-choose-one__text -->
+                                <p class="why-choose-one__text">Step into a premium sanctuary steps away from Chinmaya Mission Hospital, Marathahalli, where ancient healing meets modern luxury.</p><!-- /.why-choose-one__text -->
                                 <ul class="list-unstyled why-choose-one__list">
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -22302,8 +22295,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="team.html">Expert <br>
                                                 staff</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">Every practitioner is fully certified and undergoes rigorous training in advanced anatomy and bodywork.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -22311,8 +22303,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="services.html">Brilliant
                                                 <br>Services</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">From traditional Thai and Balinese therapies to Turkish Hammams and wine scrubs, every treatment is a ritual.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                 </ul><!-- /.list-unstyled why-choose-one__list -->
                             </div><!-- /.why-choose-one__content -->
@@ -23253,8 +23244,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Secure your therapeutic session in seconds. Confirm instantly with no upfront prepayment or hidden booking fees.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -23273,8 +23263,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Rest your body in the hands of our certified professionals, trained in traditional Thai, Balinese, and western modalities.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
@@ -23293,8 +23282,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Enjoy premium wellness at an exclusive rate. Save 10% on all online bookings using code <strong>PTS10</strong> at checkout.</p>
                         </div><!-- feature-item -->
                     </div>
                 </div>
@@ -23882,7 +23870,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Meeting</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    A quiet, personalized consultation with your therapist to identify key tension zones and tailor oil blends.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -23897,7 +23885,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Treatment</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Experience bespoke pressure, aromatic organic oils, and expert touch to melt your stress away.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -23912,7 +23900,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Finalizing</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Gently awaken with a soothing cup of post-massage organic herbal tea to anchor the restorative effects.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -24018,10 +24006,7 @@ function initLuxuryScrollReveals() {
                                 <p class="why-choose-one__highlighted">Book and enjoy our special treatments</p>
                                 <!-- /.why-choose-one__highlighted -->
 
-                                <p class="why-choose-one__text">Lorem ipsum simply free text available in the market. At vero
-                                    eos et
-                                    accusamus et iusto odio dig
-                                    ducimus qui blan.</p><!-- /.why-choose-one__text -->
+                                <p class="why-choose-one__text">Step into a premium sanctuary steps away from Chinmaya Mission Hospital, Marathahalli, where ancient healing meets modern luxury.</p><!-- /.why-choose-one__text -->
                                 <ul class="list-unstyled why-choose-one__list">
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -24029,8 +24014,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="team.html">Expert <br>
                                                 staff</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">Every practitioner is fully certified and undergoes rigorous training in advanced anatomy and bodywork.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -24038,8 +24022,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="services.html">Brilliant
                                                 <br>Services</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">From traditional Thai and Balinese therapies to Turkish Hammams and wine scrubs, every treatment is a ritual.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                 </ul><!-- /.list-unstyled why-choose-one__list -->
                             </div><!-- /.why-choose-one__content -->
@@ -24741,7 +24724,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `services.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -25566,7 +25549,5 @@ function initLuxuryScrollReveals() {
 </body>
 
 </html>
+
 ```
-
----
-

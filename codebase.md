@@ -1,5 +1,4 @@
 # Refresh D Thai Spa - Codebase Documentation
-
 This document contains the complete directory structure and the source code of all custom files in the codebase, divided into two distinct parts.
 
 ## 📂 Section 1: Full Directory Structure
@@ -23,7 +22,6 @@ Refresh-D-Salon-and-Spa/
 ---
 
 ## 📄 PART 1: Core Website Files (Structure, Styles, Logic, and Main Pages)
-
 ### 🌐 File: `README.md`
 
 ````markdown
@@ -127,6 +125,7 @@ Running through a local web server ensures all paths, resources, and map assets 
 - **Phone**: +91 83108 05129
 - **Email**: customer.refresh@gmail.com
 - **Timings**: Monday to Sunday: 10:00 AM – 8:00 PM
+
 ````
 
 ---
@@ -185,7 +184,7 @@ if ( $name && $senderEmail && $message ) {
 ### 🌐 File: `assets/refresh-d-thai-spa.css`
 
 ```css
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Utility
@@ -17220,7 +17219,7 @@ body,
 ### 🌐 File: `assets/refresh-d-thai-spa.js`
 
 ```javascript
-﻿(function ($) {
+(function ($) {
   "use strict";
 
   /*-- Checkout Accoradin --*/
@@ -20786,7 +20785,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `contact.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21280,6 +21279,7 @@ function initLuxuryScrollReveals() {
 </body>
 
 </html>
+
 ```
 
 ---
@@ -21526,8 +21526,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Secure your therapeutic session in seconds. Confirm instantly with no upfront prepayment or hidden booking fees.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -21546,8 +21545,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Rest your body in the hands of our certified professionals, trained in traditional Thai, Balinese, and western modalities.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
@@ -21566,8 +21564,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Enjoy premium wellness at an exclusive rate. Save 10% on all online bookings using code <strong>PTS10</strong> at checkout.</p>
                         </div><!-- feature-item -->
                     </div>
                 </div>
@@ -22155,7 +22152,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Meeting</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    A quiet, personalized consultation with your therapist to identify key tension zones and tailor oil blends.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -22170,7 +22167,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Treatment</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Experience bespoke pressure, aromatic organic oils, and expert touch to melt your stress away.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -22185,7 +22182,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Finalizing</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Gently awaken with a soothing cup of post-massage organic herbal tea to anchor the restorative effects.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -22291,10 +22288,7 @@ function initLuxuryScrollReveals() {
                                 <p class="why-choose-one__highlighted">Book and enjoy our special treatments</p>
                                 <!-- /.why-choose-one__highlighted -->
 
-                                <p class="why-choose-one__text">Lorem ipsum simply free text available in the market. At vero
-                                    eos et
-                                    accusamus et iusto odio dig
-                                    ducimus qui blan.</p><!-- /.why-choose-one__text -->
+                                <p class="why-choose-one__text">Step into a premium sanctuary steps away from Chinmaya Mission Hospital, Marathahalli, where ancient healing meets modern luxury.</p><!-- /.why-choose-one__text -->
                                 <ul class="list-unstyled why-choose-one__list">
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -22302,8 +22296,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="team.html">Expert <br>
                                                 staff</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">Every practitioner is fully certified and undergoes rigorous training in advanced anatomy and bodywork.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -22311,8 +22304,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="services.html">Brilliant
                                                 <br>Services</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">From traditional Thai and Balinese therapies to Turkish Hammams and wine scrubs, every treatment is a ritual.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                 </ul><!-- /.list-unstyled why-choose-one__list -->
                             </div><!-- /.why-choose-one__content -->
@@ -23253,8 +23245,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Secure your therapeutic session in seconds. Confirm instantly with no upfront prepayment or hidden booking fees.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -23273,8 +23264,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Rest your body in the hands of our certified professionals, trained in traditional Thai, Balinese, and western modalities.</p>
                         </div><!-- feature-item -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
@@ -23293,8 +23283,7 @@ function initLuxuryScrollReveals() {
                                     </g>
                                 </g>
                             </svg>
-                            <p class="feature-one__item__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                tempor incid idunt ut labore.</p>
+                            <p class="feature-one__item__text">Enjoy premium wellness at an exclusive rate. Save 10% on all online bookings using code <strong>PTS10</strong> at checkout.</p>
                         </div><!-- feature-item -->
                     </div>
                 </div>
@@ -23882,7 +23871,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Meeting</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    A quiet, personalized consultation with your therapist to identify key tension zones and tailor oil blends.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -23897,7 +23886,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Treatment</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Experience bespoke pressure, aromatic organic oils, and expert touch to melt your stress away.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -23912,7 +23901,7 @@ function initLuxuryScrollReveals() {
                             <div class="work-process-one__item__content">
                                 <h4 class="work-process-one__item__title">Finalizing</h4><!-- /.work-process-title -->
                                 <p class="work-process-one__item__text">
-                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                    Gently awaken with a soothing cup of post-massage organic herbal tea to anchor the restorative effects.
                                 </p><!-- /.work-process-text -->
                             </div>
                         </div><!-- /.work-process-item -->
@@ -24018,10 +24007,7 @@ function initLuxuryScrollReveals() {
                                 <p class="why-choose-one__highlighted">Book and enjoy our special treatments</p>
                                 <!-- /.why-choose-one__highlighted -->
 
-                                <p class="why-choose-one__text">Lorem ipsum simply free text available in the market. At vero
-                                    eos et
-                                    accusamus et iusto odio dig
-                                    ducimus qui blan.</p><!-- /.why-choose-one__text -->
+                                <p class="why-choose-one__text">Step into a premium sanctuary steps away from Chinmaya Mission Hospital, Marathahalli, where ancient healing meets modern luxury.</p><!-- /.why-choose-one__text -->
                                 <ul class="list-unstyled why-choose-one__list">
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -24029,8 +24015,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="team.html">Expert <br>
                                                 staff</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">Every practitioner is fully certified and undergoes rigorous training in advanced anatomy and bodywork.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                     <li class="why-choose-one__list__item">
                                         <div class="why-choose-one__list__icon">
@@ -24038,8 +24023,7 @@ function initLuxuryScrollReveals() {
                                         </div><!-- /.why-choose-one__list__icon -->
                                         <h4 class="why-choose-one__list__title"><a href="services.html">Brilliant
                                                 <br>Services</a></h4><!-- /.why-choose-one__list__title -->
-                                        <p class="why-choose-one__list__text">There are many variations of the passages of
-                                            available.</p><!-- /.why-choose-one__list__text -->
+                                        <p class="why-choose-one__list__text">From traditional Thai and Balinese therapies to Turkish Hammams and wine scrubs, every treatment is a ritual.</p><!-- /.why-choose-one__list__text -->
                                     </li><!-- /.why-choose-one__list__item -->
                                 </ul><!-- /.list-unstyled why-choose-one__list -->
                             </div><!-- /.why-choose-one__content -->
@@ -24741,7 +24725,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `services.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -25566,16 +25550,17 @@ function initLuxuryScrollReveals() {
 </body>
 
 </html>
+
 ```
 
 ---
 
-## 📄 PART 2: Service Detail Pages (Individual Therapy & Ritual Pages)
+## 📄 PART 2: Service Detail Pages (14 Pages)
 
 ### 🌐 File: `service-d-aroma.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27373,7 +27358,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-balinese.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28894,7 +28879,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-candle.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -29133,217 +29118,70 @@ function initLuxuryScrollReveals() {
         </section>
         <!-- page-header-end -->
 
-        <section class="service-details">
-            <div class="container">
-                <div class="row gutter-y-30">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="service-sidebar__single">
-                                <h3 class="service-sidebar__title background-base">Therapies</h3><!-- /.service-sidebar__title -->
-                                <ul class="list-unstyled service-sidebar__nav">
-                                    <li><a href="service-d-aroma.html">Aroma Massage</a></li>
-                                    <li><a href="service-d-balinese.html">Balinese Massage</a></li>
-                                    <li><a href="service-d-candle.html">Candle Massage</a></li>
-                                    <li><a href="service-d-couple.html">Couple Massage</a></li>
-                                    <li><a href="service-d-deep-tissue.html">Deep Tissue Massage</a></li>
-                                    <li><a href="service-d-four-hand.html">Four-Hand Massage</a></li>
-                                    <li><a href="service-d-lomi-lomi.html">Lomi Lomi Massage</a></li>
-                                    <li><a href="service-d-stone.html">Stone Massage</a></li>
-                                    <li><a href="service-d-swedish.html">Swedish Massage</a></li>
-                                    <li><a href="service-d-thai.html">Thai Massage</a></li>
-                                    <li><a href="service-d-turkish.html">Turkish Massage</a></li>
-                                    <li><a href="service-d-vip.html">VIP Massage</a></li>
-                                    <li><a href="service-d-vvip.html">VVIP Massage</a></li>
-                                    <li><a href="service-d-wine.html">Wine Massage</a></li>
-                                </ul><!-- /.list-unstyled service-sidebar__nav -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single">
-                                <div class="service-sidebar__discount background-gray" style="background-image: url(assets/images/shapes/service-discount-bg-1-1.png);">
-                                    <div class="service-sidebar__discount__image">
-                                        <img src="assets/images/resources/service-sidebar-d-1.png" alt="Discount">
-                                    </div><!-- /.service-sidebar__discount__image -->
-                                    <div class="service-sidebar__discount__content">
-                                        <h4 class="service-sidebar__discount__tagline">
-                                            Special
-                                        </h4><!-- /.service-sidebar__discount__tagline -->
-                                        <h3 class="service-sidebar__discount__title">
-                                            Discount
-                                        </h3><!-- /.service-sidebar__discount__title -->
-                                        <img src="assets/images/shapes/service-card-two-s-1.png" class="service-sidebar__discount__content__shape" alt="Refresh D Thai Spa">
-                                        <p class="service-sidebar__discount__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                            tempor
-                                            incid
-                                            idunt ut labore.</p><!-- /.service-sidebar__discount__text -->
-                                        <a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-sidebar__discount__link">
-                                            <span>Book now</span>
-                                        </a><!-- /.blog-card__link -->
-                                    </div><!-- /.service-sidebar__discount__content -->
-                                </div><!-- /.service-sidebar__discount -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single ">
-                                <div class="service-sidebar__contact background-base text-center" style="background-image: url(assets/images/shapes/service-contact-bg-1-1.png);">
-                                    <div class="service-sidebar__contact__icon">
-                                        <i class="icon-phone-call"></i>
-                                    </div><!-- /.service-sidebar__contact__icon -->
-                                    <h3 class="service-sidebar__contact__title">Looking for
-                                        Spa & Beauty
-                                        service?</h3><!-- /.service-sidebar__contact__title -->
-                                    <p class="service-sidebar__contact__number">
-                                        <span>Call anytime</span> <br>
-                                        <a href="tel:+9288009850"> +92 (8800) - 9850</a>
-                                    </p><!-- /.service-sidebar__contact__number -->
-                                </div><!-- /.service-sidebar__contact -->
+        <!-- Sensory Service Description Section Start -->
+        <section class="sensory-description-section" style="padding: 110px 0; background: #0e0c0f; position: relative; overflow: hidden; border-top: 1px solid rgba(201,147,116,0.12);">
+            <!-- Ambient glows -->
+            <div style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(201,147,116,0.05) 0%, transparent 70%); pointer-events: none;"></div>
+            
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="row align-items-center gutter-y-40">
+                    
+                    <!-- Left: Header Details -->
+                    <div class="col-lg-5">
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.35em; color: #c99374; margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                            <span style="display: inline-block; width: 28px; height: 1px; background: #c99374;"></span>The Treatment
+                        </p>
+                        <h2 style="font-family: 'Cormorant', serif; font-size: 56px; font-weight: 600; color: #fff; line-height: 1.08; margin-bottom: 20px;">
+                            Melting Warmth.<br><em style="font-family: 'Cormorant', serif; font-style: italic; color: #c99374; font-weight: 400; text-transform: none;">Pure Release.</em>
+                        </h2>
+                        <div style="width: 40px; height: 2px; background: linear-gradient(90deg, #c99374, transparent); margin-bottom: 24px;"></div>
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: rgba(234, 229, 226, 0.7); line-height: 1.8; margin: 0 0 24px;">
+                            A unique, deeply relaxing sensory experience that combines the gentle warmth of melted cosmetic wax with nourishing natural butter and aromatic essences.
+                        </p>
+                    </div>
+                    
+                    <!-- Right: Sensory Description Body Copy -->
+                    <div class="col-lg-7">
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                The treatment begins as a hand-poured massage candle is lit. Unlike ordinary candles, this candle is crafted from skin-safe, cosmetic-grade soy wax, shea butter, cocoa butter, and organic essential oils. As it burns, it transforms into a warm, deeply hydrating massage elixir.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Your therapist gently pours the warm, melted wax across your body. The temperature is perfectly calibrated to feel comforting and soothing, never hot. Long, rhythmic strokes are applied to release muscle tension, improve circulation, and ease physical fatigue. The heat of the wax penetrates deep into your muscle tissue, softening stiff fibers and encouraging a profound state of rest.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                The nourishing blend of shea and cocoa butter remains on your skin long after the session, providing intense hydration and leaving it silky-soft and fragrant.
+                            </p>
+                            
+                            <!-- Key Ingredients -->
+                            <div style="margin-top: 15px; border-top: 1px solid rgba(201,147,116,0.12); padding-top: 20px;">
+                                <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 700; color: #fff; margin-bottom: 12px;">Key ingredients used in this treatment:</p>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Organic Soy Wax</strong> &mdash; cosmetic-grade base that melts at a soothing temperature</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Shea & Cocoa Butter</strong> &mdash; deeply hydrates, softens, and restores skin elasticity</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Sweet Almond Oil</strong> &mdash; provides smooth glide and nourishes dry skin</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Jasmine & Sandalwood</strong> &mdash; releases anxiety and promotes deep mental calm</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div><!-- /.sidebar -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                    <div class="col-md-12 col-lg-8">
-                        <div class="service-details__content">
-                            <div class="service-details__thumbnail" style="border-radius: 14px; overflow: hidden; max-height: 480px;">
-                                <img src="assets/spa-pictures/candle_massage.jpg" alt="Candle Massage" style="width: 100%; height: 100%; object-fit: cover;">
-                            </div><!-- /.service-details__thumbnail -->
-                            <h3 class="service-details__title">Candle Massage</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-                                dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port
-                                lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of
-                                the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the
-                                1500s, when an unknown printer took a galley. It has survived not only five centuries.</p>
-                            <!-- /.service-details__text -->
-                            <p class="service-details__text">When an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                essentially unchanged not finished yet again. </p><!-- /.service-details__text -->
-                            <h3 class="service-details__title">What are the benefits?</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley. It
-                                has survived not only five centuries.</p><!-- /.service-details__text -->
-                            <ul class="list-unstyled service-details__list">
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nemo enim ipsam voluptatem quia voluptas.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nam libero tempore, cum soluta nobis est eligend.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                            </ul><!-- /.list-unstyled team-details__list -->
-                            <h3 class="service-details__title">How it works</h3><!-- /.service-details__title -->
-                            <ul class="list-unstyled service-details__process">
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Prepration</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Process</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Treatment</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                            </ul><!-- /.list-unstyled service-details__process -->
-                            <div class="row gutter-y-30 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="service-details__image__circle">
-                                        <img src="assets/images/resources/service-details-p-1.png" alt="Refresh D Thai Spa">
-                                    </div><!-- /.service-details__image__circle -->
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6">
-                                    <h4 class="service-details__sub-title">Tips & Tricks</h4><!-- /.service-details__sub-title -->
-                                    <ul class="list-unstyled service-details__post">
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Shower before your spa
-                                                    treatments</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Remove skincare
-                                                    products</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Contact the spa about any
-                                                    allergies</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                    </ul><!-- /.list-unstyled service-details__post -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                            <div class="service-details__info">
-                                <h4 class="service-details__info__title">Available Appointments</h4><!-- /.service-details__info__title -->
-                                <ul class="list-unstyled service-details__info__list">
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            8:00 am – 9:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            9:00 am – 10:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            10:00 am – 12:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            12:00 am – 2:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                </ul><!-- /.list-unstyled service-details__info__list -->
-                            </div><!-- /.service-details__info -->
-                        </div><!-- /.service-details__content -->
-                    </div><!-- /.col-md-12 col-lg-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.service-details -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Sensory Service Description Section End -->
 
         <!-- Duration Pricing Section Start -->
         <section class="duration-pricing-section" style="padding: 100px 0; background: linear-gradient(180deg, #141215 0%, #0e0c0f 100%); position: relative; overflow: hidden;">
@@ -30564,7 +30402,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-couple.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -32164,7 +32002,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-deep-tissue.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33717,7 +33555,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-four-hand.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35200,7 +35038,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-lomi-lomi.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35439,217 +35277,70 @@ function initLuxuryScrollReveals() {
         </section>
         <!-- page-header-end -->
 
-        <section class="service-details">
-            <div class="container">
-                <div class="row gutter-y-30">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="service-sidebar__single">
-                                <h3 class="service-sidebar__title background-base">Therapies</h3><!-- /.service-sidebar__title -->
-                                <ul class="list-unstyled service-sidebar__nav">
-                                    <li><a href="service-d-aroma.html">Aroma Massage</a></li>
-                                    <li><a href="service-d-balinese.html">Balinese Massage</a></li>
-                                    <li><a href="service-d-candle.html">Candle Massage</a></li>
-                                    <li><a href="service-d-couple.html">Couple Massage</a></li>
-                                    <li><a href="service-d-deep-tissue.html">Deep Tissue Massage</a></li>
-                                    <li><a href="service-d-four-hand.html">Four-Hand Massage</a></li>
-                                    <li><a href="service-d-lomi-lomi.html">Lomi Lomi Massage</a></li>
-                                    <li><a href="service-d-stone.html">Stone Massage</a></li>
-                                    <li><a href="service-d-swedish.html">Swedish Massage</a></li>
-                                    <li><a href="service-d-thai.html">Thai Massage</a></li>
-                                    <li><a href="service-d-turkish.html">Turkish Massage</a></li>
-                                    <li><a href="service-d-vip.html">VIP Massage</a></li>
-                                    <li><a href="service-d-vvip.html">VVIP Massage</a></li>
-                                    <li><a href="service-d-wine.html">Wine Massage</a></li>
-                                </ul><!-- /.list-unstyled service-sidebar__nav -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single">
-                                <div class="service-sidebar__discount background-gray" style="background-image: url(assets/images/shapes/service-discount-bg-1-1.png);">
-                                    <div class="service-sidebar__discount__image">
-                                        <img src="assets/images/resources/service-sidebar-d-1.png" alt="Discount">
-                                    </div><!-- /.service-sidebar__discount__image -->
-                                    <div class="service-sidebar__discount__content">
-                                        <h4 class="service-sidebar__discount__tagline">
-                                            Special
-                                        </h4><!-- /.service-sidebar__discount__tagline -->
-                                        <h3 class="service-sidebar__discount__title">
-                                            Discount
-                                        </h3><!-- /.service-sidebar__discount__title -->
-                                        <img src="assets/images/shapes/service-card-two-s-1.png" class="service-sidebar__discount__content__shape" alt="Refresh D Thai Spa">
-                                        <p class="service-sidebar__discount__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                            tempor
-                                            incid
-                                            idunt ut labore.</p><!-- /.service-sidebar__discount__text -->
-                                        <a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-sidebar__discount__link">
-                                            <span>Book now</span>
-                                        </a><!-- /.blog-card__link -->
-                                    </div><!-- /.service-sidebar__discount__content -->
-                                </div><!-- /.service-sidebar__discount -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single ">
-                                <div class="service-sidebar__contact background-base text-center" style="background-image: url(assets/images/shapes/service-contact-bg-1-1.png);">
-                                    <div class="service-sidebar__contact__icon">
-                                        <i class="icon-phone-call"></i>
-                                    </div><!-- /.service-sidebar__contact__icon -->
-                                    <h3 class="service-sidebar__contact__title">Looking for
-                                        Spa & Beauty
-                                        service?</h3><!-- /.service-sidebar__contact__title -->
-                                    <p class="service-sidebar__contact__number">
-                                        <span>Call anytime</span> <br>
-                                        <a href="tel:+9288009850"> +92 (8800) - 9850</a>
-                                    </p><!-- /.service-sidebar__contact__number -->
-                                </div><!-- /.service-sidebar__contact -->
+        <!-- Sensory Service Description Section Start -->
+        <section class="sensory-description-section" style="padding: 110px 0; background: #0e0c0f; position: relative; overflow: hidden; border-top: 1px solid rgba(201,147,116,0.12);">
+            <!-- Ambient glows -->
+            <div style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(201,147,116,0.05) 0%, transparent 70%); pointer-events: none;"></div>
+            
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="row align-items-center gutter-y-40">
+                    
+                    <!-- Left: Header Details -->
+                    <div class="col-lg-5">
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.35em; color: #c99374; margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                            <span style="display: inline-block; width: 28px; height: 1px; background: #c99374;"></span>The Treatment
+                        </p>
+                        <h2 style="font-family: 'Cormorant', serif; font-size: 56px; font-weight: 600; color: #fff; line-height: 1.08; margin-bottom: 20px;">
+                            The Wave of Aloha.<br><em style="font-family: 'Cormorant', serif; font-style: italic; color: #c99374; font-weight: 400; text-transform: none;">Fluid Energy.</em>
+                        </h2>
+                        <div style="width: 40px; height: 2px; background: linear-gradient(90deg, #c99374, transparent); margin-bottom: 24px;"></div>
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: rgba(234, 229, 226, 0.7); line-height: 1.8; margin: 0 0 24px;">
+                            A sacred Hawaiian healing massage that uses continuous, fluid, and wave-like forearm strokes to dissolve physical blocks and restore energetic harmony.
+                        </p>
+                    </div>
+                    
+                    <!-- Right: Sensory Description Body Copy -->
+                    <div class="col-lg-7">
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Experience the spirit of Aloha with Lomi Lomi &mdash; a traditional Hawaiian bodywork that goes far beyond a typical massage. Known historically as 'loving hands', Lomi Lomi uses continuous, long, fluid strokes with the therapist's hands and forearms, simulating gentle ocean waves moving over the body. This rhythmic, sweeping movement allows the nervous system to fully let go, dissolving both chronic muscle tension and emotional blocks.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Your therapist works intuitively, combining long effleurage strokes with passive joint releases and gentle stretching to restore range of motion and harmony to the body. Using warm organic, virgin coconut oil, this treatment deeply nourishes and hydrates the skin while promoting a seamless energetic flow from head to toe.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Lomi Lomi does not simply treat localized tension; it treats the body as a whole, leaving you with a profound sense of completeness and deep, lasting peace.
+                            </p>
+                            
+                            <!-- Key Features -->
+                            <div style="margin-top: 15px; border-top: 1px solid rgba(201,147,116,0.12); padding-top: 20px;">
+                                <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 700; color: #fff; margin-bottom: 12px;">Key benefits of this treatment:</p>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Virgin Coconut Oil</strong> &mdash; rich in fatty acids, deeply hydrates and protects the skin barrier</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Forearm Stroke Technique</strong> &mdash; covers larger areas of the body simultaneously for a fluid, wave-like sensation</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Passive Joint Release</strong> &mdash; gently releases tension held deep in the joints and restores mobility</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Aloha Spirit</strong> &mdash; a holistic approach that honors the connection between mind, body, and spirit</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div><!-- /.sidebar -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                    <div class="col-md-12 col-lg-8">
-                        <div class="service-details__content">
-                            <div class="service-details__thumbnail" style="border-radius: 14px; overflow: hidden; max-height: 480px;">
-                                <img src="assets/spa-pictures/lomi_lomi_massage.jpg" alt="Lomi Lomi Massage" style="width: 100%; height: 100%; object-fit: cover;">
-                            </div><!-- /.service-details__thumbnail -->
-                            <h3 class="service-details__title">Lomi Lomi Massage</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-                                dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port
-                                lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of
-                                the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the
-                                1500s, when an unknown printer took a galley. It has survived not only five centuries.</p>
-                            <!-- /.service-details__text -->
-                            <p class="service-details__text">When an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                essentially unchanged not finished yet again. </p><!-- /.service-details__text -->
-                            <h3 class="service-details__title">What are the benefits?</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley. It
-                                has survived not only five centuries.</p><!-- /.service-details__text -->
-                            <ul class="list-unstyled service-details__list">
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nemo enim ipsam voluptatem quia voluptas.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nam libero tempore, cum soluta nobis est eligend.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                            </ul><!-- /.list-unstyled team-details__list -->
-                            <h3 class="service-details__title">How it works</h3><!-- /.service-details__title -->
-                            <ul class="list-unstyled service-details__process">
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Prepration</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Process</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Treatment</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                            </ul><!-- /.list-unstyled service-details__process -->
-                            <div class="row gutter-y-30 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="service-details__image__circle">
-                                        <img src="assets/images/resources/service-details-p-1.png" alt="Refresh D Thai Spa">
-                                    </div><!-- /.service-details__image__circle -->
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6">
-                                    <h4 class="service-details__sub-title">Tips & Tricks</h4><!-- /.service-details__sub-title -->
-                                    <ul class="list-unstyled service-details__post">
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Shower before your spa
-                                                    treatments</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Remove skincare
-                                                    products</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Contact the spa about any
-                                                    allergies</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                    </ul><!-- /.list-unstyled service-details__post -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                            <div class="service-details__info">
-                                <h4 class="service-details__info__title">Available Appointments</h4><!-- /.service-details__info__title -->
-                                <ul class="list-unstyled service-details__info__list">
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            8:00 am – 9:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            9:00 am – 10:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            10:00 am – 12:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            12:00 am – 2:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                </ul><!-- /.list-unstyled service-details__info__list -->
-                            </div><!-- /.service-details__info -->
-                        </div><!-- /.service-details__content -->
-                    </div><!-- /.col-md-12 col-lg-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.service-details -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Sensory Service Description Section End -->
 
         <!-- Duration Pricing Section Start -->
         <section class="duration-pricing-section" style="padding: 100px 0; background: linear-gradient(180deg, #141215 0%, #0e0c0f 100%); position: relative; overflow: hidden;">
@@ -36870,7 +36561,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-stone.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -38481,7 +38172,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-swedish.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -40050,7 +39741,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-thai.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -41610,7 +41301,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-turkish.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -41849,217 +41540,70 @@ function initLuxuryScrollReveals() {
         </section>
         <!-- page-header-end -->
 
-        <section class="service-details">
-            <div class="container">
-                <div class="row gutter-y-30">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="service-sidebar__single">
-                                <h3 class="service-sidebar__title background-base">Therapies</h3><!-- /.service-sidebar__title -->
-                                <ul class="list-unstyled service-sidebar__nav">
-                                    <li><a href="service-d-aroma.html">Aroma Massage</a></li>
-                                    <li><a href="service-d-balinese.html">Balinese Massage</a></li>
-                                    <li><a href="service-d-candle.html">Candle Massage</a></li>
-                                    <li><a href="service-d-couple.html">Couple Massage</a></li>
-                                    <li><a href="service-d-deep-tissue.html">Deep Tissue Massage</a></li>
-                                    <li><a href="service-d-four-hand.html">Four-Hand Massage</a></li>
-                                    <li><a href="service-d-lomi-lomi.html">Lomi Lomi Massage</a></li>
-                                    <li><a href="service-d-stone.html">Stone Massage</a></li>
-                                    <li><a href="service-d-swedish.html">Swedish Massage</a></li>
-                                    <li><a href="service-d-thai.html">Thai Massage</a></li>
-                                    <li><a href="service-d-turkish.html">Turkish Massage</a></li>
-                                    <li><a href="service-d-vip.html">VIP Massage</a></li>
-                                    <li><a href="service-d-vvip.html">VVIP Massage</a></li>
-                                    <li><a href="service-d-wine.html">Wine Massage</a></li>
-                                </ul><!-- /.list-unstyled service-sidebar__nav -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single">
-                                <div class="service-sidebar__discount background-gray" style="background-image: url(assets/images/shapes/service-discount-bg-1-1.png);">
-                                    <div class="service-sidebar__discount__image">
-                                        <img src="assets/images/resources/service-sidebar-d-1.png" alt="Discount">
-                                    </div><!-- /.service-sidebar__discount__image -->
-                                    <div class="service-sidebar__discount__content">
-                                        <h4 class="service-sidebar__discount__tagline">
-                                            Special
-                                        </h4><!-- /.service-sidebar__discount__tagline -->
-                                        <h3 class="service-sidebar__discount__title">
-                                            Discount
-                                        </h3><!-- /.service-sidebar__discount__title -->
-                                        <img src="assets/images/shapes/service-card-two-s-1.png" class="service-sidebar__discount__content__shape" alt="Refresh D Thai Spa">
-                                        <p class="service-sidebar__discount__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                            tempor
-                                            incid
-                                            idunt ut labore.</p><!-- /.service-sidebar__discount__text -->
-                                        <a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-sidebar__discount__link">
-                                            <span>Book now</span>
-                                        </a><!-- /.blog-card__link -->
-                                    </div><!-- /.service-sidebar__discount__content -->
-                                </div><!-- /.service-sidebar__discount -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single ">
-                                <div class="service-sidebar__contact background-base text-center" style="background-image: url(assets/images/shapes/service-contact-bg-1-1.png);">
-                                    <div class="service-sidebar__contact__icon">
-                                        <i class="icon-phone-call"></i>
-                                    </div><!-- /.service-sidebar__contact__icon -->
-                                    <h3 class="service-sidebar__contact__title">Looking for
-                                        Spa & Beauty
-                                        service?</h3><!-- /.service-sidebar__contact__title -->
-                                    <p class="service-sidebar__contact__number">
-                                        <span>Call anytime</span> <br>
-                                        <a href="tel:+9288009850"> +92 (8800) - 9850</a>
-                                    </p><!-- /.service-sidebar__contact__number -->
-                                </div><!-- /.service-sidebar__contact -->
+        <!-- Sensory Service Description Section Start -->
+        <section class="sensory-description-section" style="padding: 110px 0; background: #0e0c0f; position: relative; overflow: hidden; border-top: 1px solid rgba(201,147,116,0.12);">
+            <!-- Ambient glows -->
+            <div style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(201,147,116,0.05) 0%, transparent 70%); pointer-events: none;"></div>
+            
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="row align-items-center gutter-y-40">
+                    
+                    <!-- Left: Header Details -->
+                    <div class="col-lg-5">
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.35em; color: #c99374; margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                            <span style="display: inline-block; width: 28px; height: 1px; background: #c99374;"></span>The Treatment
+                        </p>
+                        <h2 style="font-family: 'Cormorant', serif; font-size: 56px; font-weight: 600; color: #fff; line-height: 1.08; margin-bottom: 20px;">
+                            Steam. Scrub.<br><em style="font-family: 'Cormorant', serif; font-style: italic; color: #c99374; font-weight: 400; text-transform: none;">Olive Foam Cocoon.</em>
+                        </h2>
+                        <div style="width: 40px; height: 2px; background: linear-gradient(90deg, #c99374, transparent); margin-bottom: 24px;"></div>
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: rgba(234, 229, 226, 0.7); line-height: 1.8; margin: 0 0 24px;">
+                            A timeless Middle Eastern bathing ritual that purifies the skin with steam, deep Kessa glove exfoliation, and a soothing soap foam massage.
+                        </p>
+                    </div>
+                    
+                    <!-- Right: Sensory Description Body Copy -->
+                    <div class="col-lg-7">
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Step into a timeless bathing ritual that has purified and relaxed the body for centuries. The Turkish Hammam & Massage at Refresh D Thai Spa begins in a private steam chamber, warming your body and opening your pores to prepare your skin for deep purification.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                You are then laid upon a traditional heated marble table. Your therapist uses an authentic Kessa mitt to vigorously exfoliate your skin, gently removing dead cells, impurities, and improving local circulation. Following the scrub, you are cocooned in a thick cloud of olive-oil soap foam. This is the soap massage &mdash; a traditional technique of squeezing bubbles from a linen cloth, leaving your body clean, soft, and refreshed.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                To close the ritual, you receive a full-body relaxation massage with warm, hydrating organic oils. This locks in the moisture, releases any remaining muscle stiffness, and rounds out a truly complete sensory reset.
+                            </p>
+                            
+                            <!-- Key Features -->
+                            <div style="margin-top: 15px; border-top: 1px solid rgba(201,147,116,0.12); padding-top: 20px;">
+                                <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 700; color: #fff; margin-bottom: 12px;">Key elements of this treatment:</p>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Kessa Mitt Scrub</strong> &mdash; authentic coarse-textured glove that deeply cleanses and rejuvenates the skin</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Soap Cloud Massage</strong> &mdash; cocooning foam made from pure olive oil soap that softens and hydrates skin</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Heated Marble Prep</strong> &mdash; Göbektaşı preparation that relaxes muscles and opens pores through ambient warmth</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Warm Oil Finishing</strong> &mdash; hydrating full body massage to seal in moisture and soothe muscles</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div><!-- /.sidebar -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                    <div class="col-md-12 col-lg-8">
-                        <div class="service-details__content">
-                            <div class="service-details__thumbnail" style="border-radius: 14px; overflow: hidden; max-height: 480px;">
-                                <img src="assets/spa-pictures/full_body_turkish_massage.jpg" alt="Turkish Massage" style="width: 100%; height: 100%; object-fit: cover;">
-                            </div><!-- /.service-details__thumbnail -->
-                            <h3 class="service-details__title">Turkish Massage & Hammam</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-                                dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port
-                                lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of
-                                the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the
-                                1500s, when an unknown printer took a galley. It has survived not only five centuries.</p>
-                            <!-- /.service-details__text -->
-                            <p class="service-details__text">When an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                essentially unchanged not finished yet again. </p><!-- /.service-details__text -->
-                            <h3 class="service-details__title">What are the benefits?</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley. It
-                                has survived not only five centuries.</p><!-- /.service-details__text -->
-                            <ul class="list-unstyled service-details__list">
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nemo enim ipsam voluptatem quia voluptas.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nam libero tempore, cum soluta nobis est eligend.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                            </ul><!-- /.list-unstyled team-details__list -->
-                            <h3 class="service-details__title">How it works</h3><!-- /.service-details__title -->
-                            <ul class="list-unstyled service-details__process">
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Prepration</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Process</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Treatment</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                            </ul><!-- /.list-unstyled service-details__process -->
-                            <div class="row gutter-y-30 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="service-details__image__circle">
-                                        <img src="assets/images/resources/service-details-p-1.png" alt="Refresh D Thai Spa">
-                                    </div><!-- /.service-details__image__circle -->
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6">
-                                    <h4 class="service-details__sub-title">Tips & Tricks</h4><!-- /.service-details__sub-title -->
-                                    <ul class="list-unstyled service-details__post">
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Shower before your spa
-                                                    treatments</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Remove skincare
-                                                    products</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Contact the spa about any
-                                                    allergies</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                    </ul><!-- /.list-unstyled service-details__post -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                            <div class="service-details__info">
-                                <h4 class="service-details__info__title">Available Appointments</h4><!-- /.service-details__info__title -->
-                                <ul class="list-unstyled service-details__info__list">
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            8:00 am – 9:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            9:00 am – 10:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            10:00 am – 12:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            12:00 am – 2:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                </ul><!-- /.list-unstyled service-details__info__list -->
-                            </div><!-- /.service-details__info -->
-                        </div><!-- /.service-details__content -->
-                    </div><!-- /.col-md-12 col-lg-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.service-details -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Sensory Service Description Section End -->
 
         <!-- Duration Pricing Section Start -->
         <section class="duration-pricing-section" style="padding: 100px 0; background: linear-gradient(180deg, #141215 0%, #0e0c0f 100%); position: relative; overflow: hidden;">
@@ -43280,7 +42824,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-vip.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -44891,7 +44435,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-vvip.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -45130,217 +44674,70 @@ function initLuxuryScrollReveals() {
         </section>
         <!-- page-header-end -->
 
-        <section class="service-details">
-            <div class="container">
-                <div class="row gutter-y-30">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="service-sidebar__single">
-                                <h3 class="service-sidebar__title background-base">Therapies</h3><!-- /.service-sidebar__title -->
-                                <ul class="list-unstyled service-sidebar__nav">
-                                    <li><a href="service-d-aroma.html">Aroma Massage</a></li>
-                                    <li><a href="service-d-balinese.html">Balinese Massage</a></li>
-                                    <li><a href="service-d-candle.html">Candle Massage</a></li>
-                                    <li><a href="service-d-couple.html">Couple Massage</a></li>
-                                    <li><a href="service-d-deep-tissue.html">Deep Tissue Massage</a></li>
-                                    <li><a href="service-d-four-hand.html">Four-Hand Massage</a></li>
-                                    <li><a href="service-d-lomi-lomi.html">Lomi Lomi Massage</a></li>
-                                    <li><a href="service-d-stone.html">Stone Massage</a></li>
-                                    <li><a href="service-d-swedish.html">Swedish Massage</a></li>
-                                    <li><a href="service-d-thai.html">Thai Massage</a></li>
-                                    <li><a href="service-d-turkish.html">Turkish Massage</a></li>
-                                    <li><a href="service-d-vip.html">VIP Massage</a></li>
-                                    <li><a href="service-d-vvip.html">VVIP Massage</a></li>
-                                    <li><a href="service-d-wine.html">Wine Massage</a></li>
-                                </ul><!-- /.list-unstyled service-sidebar__nav -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single">
-                                <div class="service-sidebar__discount background-gray" style="background-image: url(assets/images/shapes/service-discount-bg-1-1.png);">
-                                    <div class="service-sidebar__discount__image">
-                                        <img src="assets/images/resources/service-sidebar-d-1.png" alt="Discount">
-                                    </div><!-- /.service-sidebar__discount__image -->
-                                    <div class="service-sidebar__discount__content">
-                                        <h4 class="service-sidebar__discount__tagline">
-                                            Special
-                                        </h4><!-- /.service-sidebar__discount__tagline -->
-                                        <h3 class="service-sidebar__discount__title">
-                                            Discount
-                                        </h3><!-- /.service-sidebar__discount__title -->
-                                        <img src="assets/images/shapes/service-card-two-s-1.png" class="service-sidebar__discount__content__shape" alt="Refresh D Thai Spa">
-                                        <p class="service-sidebar__discount__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                            tempor
-                                            incid
-                                            idunt ut labore.</p><!-- /.service-sidebar__discount__text -->
-                                        <a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-sidebar__discount__link">
-                                            <span>Book now</span>
-                                        </a><!-- /.blog-card__link -->
-                                    </div><!-- /.service-sidebar__discount__content -->
-                                </div><!-- /.service-sidebar__discount -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single ">
-                                <div class="service-sidebar__contact background-base text-center" style="background-image: url(assets/images/shapes/service-contact-bg-1-1.png);">
-                                    <div class="service-sidebar__contact__icon">
-                                        <i class="icon-phone-call"></i>
-                                    </div><!-- /.service-sidebar__contact__icon -->
-                                    <h3 class="service-sidebar__contact__title">Looking for
-                                        Spa & Beauty
-                                        service?</h3><!-- /.service-sidebar__contact__title -->
-                                    <p class="service-sidebar__contact__number">
-                                        <span>Call anytime</span> <br>
-                                        <a href="tel:+9288009850"> +92 (8800) - 9850</a>
-                                    </p><!-- /.service-sidebar__contact__number -->
-                                </div><!-- /.service-sidebar__contact -->
+        <!-- Sensory Service Description Section Start -->
+        <section class="sensory-description-section" style="padding: 110px 0; background: #0e0c0f; position: relative; overflow: hidden; border-top: 1px solid rgba(201,147,116,0.12);">
+            <!-- Ambient glows -->
+            <div style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(201,147,116,0.05) 0%, transparent 70%); pointer-events: none;"></div>
+            
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="row align-items-center gutter-y-40">
+                    
+                    <!-- Left: Header Details -->
+                    <div class="col-lg-5">
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.35em; color: #c99374; margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                            <span style="display: inline-block; width: 28px; height: 1px; background: #c99374;"></span>The Treatment
+                        </p>
+                        <h2 style="font-family: 'Cormorant', serif; font-size: 56px; font-weight: 600; color: #fff; line-height: 1.08; margin-bottom: 20px;">
+                            Bespoke Luxury.<br><em style="font-family: 'Cormorant', serif; font-style: italic; color: #c99374; font-weight: 400; text-transform: none;">Absolute Sanctuary.</em>
+                        </h2>
+                        <div style="width: 40px; height: 2px; background: linear-gradient(90deg, #c99374, transparent); margin-bottom: 24px;"></div>
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: rgba(234, 229, 226, 0.7); line-height: 1.8; margin: 0 0 24px;">
+                            A premium, fully customized therapeutic journey integrating rare organic oils, hot basalt stones, and advanced bodywork for a complete restoration of mind and body.
+                        </p>
+                    </div>
+                    
+                    <!-- Right: Sensory Description Body Copy -->
+                    <div class="col-lg-7">
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Indulge in a bespoke therapeutic journey designed exclusively for those who seek the absolute pinnacle of physical and mental restoration. The Ultra-Luxury VVIP Massage is not a fixed treatment; it is a personalized wellness ritual customized in real-time by our senior therapist to address your body's specific anatomical needs.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                The experience begins with a private premium steam session to relax the muscles and prepare the skin. The therapy integrates the finest advanced bodywork modalities, including customized deep tissue work, traditional Thai stretching, and hot basalt stones to melt the deepest tension. We utilize only our most precious, rare organic essential oils &mdash; such as Bulgarian Rose, Neroli, and rich Cambodian Oud &mdash; distilled to absolute purity.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Every detail, from the pressure level to the oil blend and heated towel wrap closures, is meticulously calibrated. The result is a profound, total sensory reset that restores lightness to your limbs and stilling quiet to your mind.
+                            </p>
+                            
+                            <!-- Key Features -->
+                            <div style="margin-top: 15px; border-top: 1px solid rgba(201,147,116,0.12); padding-top: 20px;">
+                                <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 700; color: #fff; margin-bottom: 12px;">Key highlights of this bespoke treatment:</p>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Rare Essential Oils</strong> &mdash; uses premium, luxury organic essences including Bulgarian Rose, Neroli, and Cambodian Oud</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Hot Basalt Stones</strong> &mdash; targeted heat application to melt deep muscular knots and improve energy flow</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Custom Modalities</strong> &mdash; an intuitive blend of deep tissue, Balinese strokes, and passive Thai stretching</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Bespoke Care</strong> &mdash; customized to your exact physical state and sensory preferences for absolute relaxation</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div><!-- /.sidebar -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                    <div class="col-md-12 col-lg-8">
-                        <div class="service-details__content">
-                            <div class="service-details__thumbnail" style="border-radius: 14px; overflow: hidden; max-height: 480px;">
-                                <img src="assets/spa-pictures/full_body_vvip_massage.jpg" alt="VVIP Massage" style="width: 100%; height: 100%; object-fit: cover;">
-                            </div><!-- /.service-details__thumbnail -->
-                            <h3 class="service-details__title">Ultra-Luxury VVIP Massage</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-                                dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port
-                                lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of
-                                the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the
-                                1500s, when an unknown printer took a galley. It has survived not only five centuries.</p>
-                            <!-- /.service-details__text -->
-                            <p class="service-details__text">When an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                essentially unchanged not finished yet again. </p><!-- /.service-details__text -->
-                            <h3 class="service-details__title">What are the benefits?</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley. It
-                                has survived not only five centuries.</p><!-- /.service-details__text -->
-                            <ul class="list-unstyled service-details__list">
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nemo enim ipsam voluptatem quia voluptas.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nam libero tempore, cum soluta nobis est eligend.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                            </ul><!-- /.list-unstyled team-details__list -->
-                            <h3 class="service-details__title">How it works</h3><!-- /.service-details__title -->
-                            <ul class="list-unstyled service-details__process">
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Prepration</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Process</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Treatment</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                            </ul><!-- /.list-unstyled service-details__process -->
-                            <div class="row gutter-y-30 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="service-details__image__circle">
-                                        <img src="assets/images/resources/service-details-p-1.png" alt="Refresh D Thai Spa">
-                                    </div><!-- /.service-details__image__circle -->
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6">
-                                    <h4 class="service-details__sub-title">Tips & Tricks</h4><!-- /.service-details__sub-title -->
-                                    <ul class="list-unstyled service-details__post">
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Shower before your spa
-                                                    treatments</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Remove skincare
-                                                    products</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Contact the spa about any
-                                                    allergies</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                    </ul><!-- /.list-unstyled service-details__post -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                            <div class="service-details__info">
-                                <h4 class="service-details__info__title">Available Appointments</h4><!-- /.service-details__info__title -->
-                                <ul class="list-unstyled service-details__info__list">
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            8:00 am – 9:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            9:00 am – 10:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            10:00 am – 12:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            12:00 am – 2:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                </ul><!-- /.list-unstyled service-details__info__list -->
-                            </div><!-- /.service-details__info -->
-                        </div><!-- /.service-details__content -->
-                    </div><!-- /.col-md-12 col-lg-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.service-details -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Sensory Service Description Section End -->
 
         <!-- Duration Pricing Section Start -->
         <section class="duration-pricing-section" style="padding: 100px 0; background: linear-gradient(180deg, #141215 0%, #0e0c0f 100%); position: relative; overflow: hidden;">
@@ -45372,8 +44769,8 @@ function initLuxuryScrollReveals() {
                             <div style="display: inline-block; background: rgba(201,147,116,0.1); border: 1px solid rgba(201,147,116,0.25); border-radius: 30px; padding: 6px 20px; margin-bottom: 24px;">
                                 <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #c99374;">60 Minutes</span>
                             </div>
-                            <div style="font-family: 'Cormorant', serif; font-size: 54px; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 4px;">&#8377;2,399</div>
-                            <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; color: rgba(234,229,226,0.35); text-decoration: line-through; margin-bottom: 28px;">&#8377;2,665</div>
+                            <div style="font-family: 'Cormorant', serif; font-size: 54px; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 4px;">&#8377;3,999</div>
+                            <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; color: rgba(234,229,226,0.35); text-decoration: line-through; margin-bottom: 28px;">&#8377;4,440</div>
                             <div style="border-top: 1px solid rgba(201,147,116,0.1); padding-top: 24px; margin-bottom: 24px;">
                                 <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 12px; color: rgba(234,229,226,0.5); line-height: 1.8;">
                                     <span>&#10003;&nbsp; No prepayment required</span><br>
@@ -45395,8 +44792,8 @@ function initLuxuryScrollReveals() {
                             <div style="display: inline-block; background: rgba(201,147,116,0.2); border: 1px solid rgba(201,147,116,0.4); border-radius: 30px; padding: 6px 20px; margin-bottom: 24px; margin-top: 8px;">
                                 <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #c99374;">90 Minutes</span>
                             </div>
-                            <div style="font-family: 'Cormorant', serif; font-size: 54px; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 4px;">&#8377;3,499</div>
-                            <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; color: rgba(234,229,226,0.35); text-decoration: line-through; margin-bottom: 28px;">&#8377;3,888</div>
+                            <div style="font-family: 'Cormorant', serif; font-size: 54px; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 4px;">&#8377;5,499</div>
+                            <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; color: rgba(234,229,226,0.35); text-decoration: line-through; margin-bottom: 28px;">&#8377;6,110</div>
                             <div style="border-top: 1px solid rgba(201,147,116,0.2); padding-top: 24px; margin-bottom: 24px;">
                                 <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 12px; color: rgba(234,229,226,0.6); line-height: 1.8;">
                                     <span>&#10003;&nbsp; No prepayment required</span><br>
@@ -45416,8 +44813,8 @@ function initLuxuryScrollReveals() {
                             <div style="display: inline-block; background: rgba(201,147,116,0.1); border: 1px solid rgba(201,147,116,0.25); border-radius: 30px; padding: 6px 20px; margin-bottom: 24px;">
                                 <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #c99374;">120 Minutes</span>
                             </div>
-                            <div style="font-family: 'Cormorant', serif; font-size: 54px; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 4px;">&#8377;4,499</div>
-                            <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; color: rgba(234,229,226,0.35); text-decoration: line-through; margin-bottom: 28px;">&#8377;4,999</div>
+                            <div style="font-family: 'Cormorant', serif; font-size: 54px; font-weight: 700; color: #fff; line-height: 1; margin-bottom: 4px;">&#8377;6,999</div>
+                            <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; color: rgba(234,229,226,0.35); text-decoration: line-through; margin-bottom: 28px;">&#8377;7,770</div>
                             <div style="border-top: 1px solid rgba(201,147,116,0.1); padding-top: 24px; margin-bottom: 24px;">
                                 <div style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 12px; color: rgba(234,229,226,0.5); line-height: 1.8;">
                                     <span>&#10003;&nbsp; No prepayment required</span><br>
@@ -46561,7 +45958,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `service-d-wine.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -46798,219 +46195,70 @@ function initLuxuryScrollReveals() {
                 </div>
             </div>
         </section>
-        <!-- page-header-end -->
-
-        <section class="service-details">
-            <div class="container">
-                <div class="row gutter-y-30">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="service-sidebar__single">
-                                <h3 class="service-sidebar__title background-base">Therapies</h3><!-- /.service-sidebar__title -->
-                                <ul class="list-unstyled service-sidebar__nav">
-                                    <li><a href="service-d-aroma.html">Aroma Massage</a></li>
-                                    <li><a href="service-d-balinese.html">Balinese Massage</a></li>
-                                    <li><a href="service-d-candle.html">Candle Massage</a></li>
-                                    <li><a href="service-d-couple.html">Couple Massage</a></li>
-                                    <li><a href="service-d-deep-tissue.html">Deep Tissue Massage</a></li>
-                                    <li><a href="service-d-four-hand.html">Four-Hand Massage</a></li>
-                                    <li><a href="service-d-lomi-lomi.html">Lomi Lomi Massage</a></li>
-                                    <li><a href="service-d-stone.html">Stone Massage</a></li>
-                                    <li><a href="service-d-swedish.html">Swedish Massage</a></li>
-                                    <li><a href="service-d-thai.html">Thai Massage</a></li>
-                                    <li><a href="service-d-turkish.html">Turkish Massage</a></li>
-                                    <li><a href="service-d-vip.html">VIP Massage</a></li>
-                                    <li><a href="service-d-vvip.html">VVIP Massage</a></li>
-                                    <li><a href="service-d-wine.html">Wine Massage</a></li>
-                                </ul><!-- /.list-unstyled service-sidebar__nav -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single">
-                                <div class="service-sidebar__discount background-gray" style="background-image: url(assets/images/shapes/service-discount-bg-1-1.png);">
-                                    <div class="service-sidebar__discount__image">
-                                        <img src="assets/images/resources/service-sidebar-d-1.png" alt="Discount">
-                                    </div><!-- /.service-sidebar__discount__image -->
-                                    <div class="service-sidebar__discount__content">
-                                        <h4 class="service-sidebar__discount__tagline">
-                                            Special
-                                        </h4><!-- /.service-sidebar__discount__tagline -->
-                                        <h3 class="service-sidebar__discount__title">
-                                            Discount
-                                        </h3><!-- /.service-sidebar__discount__title -->
-                                        <img src="assets/images/shapes/service-card-two-s-1.png" class="service-sidebar__discount__content__shape" alt="Refresh D Thai Spa">
-                                        <p class="service-sidebar__discount__text">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod
-                                            tempor
-                                            incid
-                                            idunt ut labore.</p><!-- /.service-sidebar__discount__text -->
-                                        <a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-sidebar__discount__link">
-                                            <span>Book now</span>
-                                        </a><!-- /.blog-card__link -->
-                                    </div><!-- /.service-sidebar__discount__content -->
-                                </div><!-- /.service-sidebar__discount -->
-                            </div><!-- /.service-sidebar__single -->
-                            <div class="service-sidebar__single ">
-                                <div class="service-sidebar__contact background-base text-center" style="background-image: url(assets/images/shapes/service-contact-bg-1-1.png);">
-                                    <div class="service-sidebar__contact__icon">
-                                        <i class="icon-phone-call"></i>
-                                    </div><!-- /.service-sidebar__contact__icon -->
-                                    <h3 class="service-sidebar__contact__title">Looking for
-                                        Spa & Beauty
-                                        service?</h3><!-- /.service-sidebar__contact__title -->
-                                    <p class="service-sidebar__contact__number">
-                                        <span>Call anytime</span> <br>
-                                        <a href="tel:+9288009850"> +92 (8800) - 9850</a>
-                                    </p><!-- /.service-sidebar__contact__number -->
-                                </div><!-- /.service-sidebar__contact -->
+        <!-- page-header-end -->        <!-- Sensory Service Description Section Start -->
+        <section class="sensory-description-section" style="padding: 110px 0; background: #0e0c0f; position: relative; overflow: hidden; border-top: 1px solid rgba(201,147,116,0.12);">
+            <!-- Ambient glows -->
+            <div style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(201,147,116,0.05) 0%, transparent 70%); pointer-events: none;"></div>
+            
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="row align-items-center gutter-y-40">
+                    
+                    <!-- Left: Header Details -->
+                    <div class="col-lg-5">
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.35em; color: #c99374; margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                            <span style="display: inline-block; width: 28px; height: 1px; background: #c99374;"></span>The Treatment
+                        </p>
+                        <h2 style="font-family: 'Cormorant', serif; font-size: 56px; font-weight: 600; color: #fff; line-height: 1.08; margin-bottom: 20px;">
+                            Antioxidant Rich.<br><em style="font-family: 'Cormorant', serif; font-style: italic; color: #c99374; font-weight: 400; text-transform: none;">Skin Glow. Restorative Bliss.</em>
+                        </h2>
+                        <div style="width: 40px; height: 2px; background: linear-gradient(90deg, #c99374, transparent); margin-bottom: 24px;"></div>
+                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: rgba(234, 229, 226, 0.7); line-height: 1.8; margin: 0 0 24px;">
+                            A luxurious and rejuvenating vinotherapy treatment utilizing real red wine extract and organic cold-pressed grape seed oil rich in active resveratrol and powerful antioxidants to restore, nourish, and brighten your skin.
+                        </p>
+                    </div>
+                    
+                    <!-- Right: Sensory Description Body Copy -->
+                    <div class="col-lg-7">
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                Indulge in the ultimate restorative therapy inspired by the ancient vineyards. Our Rejuvenating Wine Massage harnesses the powerful anti-aging benefits of polyphenols found in red wine. These natural compounds work to neutralize free radicals, promote cell regeneration, and protect the skin from environmental stressors.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                The treatment features custom massage techniques utilizing organic, cold-pressed grape seed oil. Renowned for its lightweight and non-comedogenic properties, grape seed oil is packed with essential fatty acids, vitamin E, and resveratrol. This nourishing blend absorbs deeply to firm up skin tone, boost elasticity, and deliver a brilliant, youthful glow.
+                            </p>
+                            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; color: rgba(234, 229, 226, 0.75); line-height: 1.9; margin: 0;">
+                                As your therapist applies rhythmic, therapeutic pressure, the gentle, pleasant aroma of grape essence relaxes your senses. The combination of active skin nutrition and professional muscle release leaves you feeling completely destressed, with visibly smoother and glowing skin.
+                            </p>
+                            
+                            <!-- Key Ingredients -->
+                            <div style="margin-top: 15px; border-top: 1px solid rgba(201,147,116,0.12); padding-top: 20px;">
+                                <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 700; color: #fff; margin-bottom: 12px;">Key ingredients used in this treatment:</p>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Red Wine Polyphenols</strong> &mdash; active antioxidants that fight signs of aging and restore skin cells</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Cold-Pressed Grape Seed Oil</strong> &mdash; deeply moisturizes without clogging pores, rich in vitamin E</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Active Resveratrol</strong> &mdash; boosts collagen production and enhances natural skin brightness</p>
+                                    </div>
+                                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                                        <div style="color: #c99374; font-size: 13px; font-weight: bold; margin-top: 2px;">&#10003;</div>
+                                        <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; color: rgba(234,229,226,0.7); margin: 0; line-height: 1.5;"><strong>Grape Seed Extract</strong> &mdash; clarifies the skin tone, reduces inflammation, and improves elasticity</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div><!-- /.sidebar -->
-                    </div><!-- /.col-md-12 col-lg-4 -->
-                    <div class="col-md-12 col-lg-8">
-                        <div class="service-details__content">
-                            <div class="service-details__thumbnail" style="border-radius: 14px; overflow: hidden; max-height: 480px;">
-                                <img src="assets/spa-pictures/wine_massage.jpg" alt="Wine Massage" style="width: 100%; height: 100%; object-fit: cover;">
-                            </div><!-- /.service-details__thumbnail -->
-                            <h3 class="service-details__title">Rejuvenating Wine Massage</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-                                dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port
-                                lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of
-                                the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the
-                                1500s, when an unknown printer took a galley. It has survived not only five centuries.</p>
-                            <!-- /.service-details__text -->
-                            <p class="service-details__text">When an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                essentially unchanged not finished yet again. </p><!-- /.service-details__text -->
-                            <h3 class="service-details__title">What are the benefits?</h3><!-- /.service-details__title -->
-                            <p class="service-details__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley. It
-                                has survived not only five centuries.</p><!-- /.service-details__text -->
-                            <ul class="list-unstyled service-details__list">
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nemo enim ipsam voluptatem quia voluptas.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Nam libero tempore, cum soluta nobis est eligend.
-                                </li>
-                                <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    Accusamus et iusto odio dignissimos ducimus.
-                                </li>
-                            </ul><!-- /.list-unstyled team-details__list -->
-                            <h3 class="service-details__title">How it works</h3><!-- /.service-details__title -->
-                            <ul class="list-unstyled service-details__process">
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Prepration</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Process</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                                <li>
-                                    <div class="service-details__process__top">
-                                        <i class="service-details__process__icon icon-tick"></i>
-                                        <h4 class="service-details__process__title">Treatment</h4><!-- /.service-details__process__title -->
-                                    </div><!-- /.service-details__process__top -->
-                                    <p class="service-details__process__text">Quis autem vel eum iure epen qui in ea voluptate velit.</p>
-                                    <!-- /.service-details__process__text -->
-                                </li>
-                            </ul><!-- /.list-unstyled service-details__process -->
-                            <div class="row gutter-y-30 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="service-details__image__circle">
-                                        <img src="assets/images/resources/service-details-p-1.png" alt="Refresh D Thai Spa">
-                                    </div><!-- /.service-details__image__circle -->
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6">
-                                    <h4 class="service-details__sub-title">Tips & Tricks</h4><!-- /.service-details__sub-title -->
-                                    <ul class="list-unstyled service-details__post">
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Shower before your spa
-                                                    treatments</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Remove skincare
-                                                    products</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                        <li>
-                                            <p class="service-details__post__date">23 July, 2023</p><!-- /.service-details__post__date -->
-                                            <p class="service-details__post__title"><a href="blog-details-right.html">Contact the spa about any
-                                                    allergies</a></p>
-                                            <!-- /.service-details__post__title -->
-                                        </li>
-                                    </ul><!-- /.list-unstyled service-details__post -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                            <div class="service-details__info">
-                                <h4 class="service-details__info__title">Available Appointments</h4><!-- /.service-details__info__title -->
-                                <ul class="list-unstyled service-details__info__list">
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            8:00 am – 9:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            9:00 am – 10:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            10:00 am – 12:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                    <li>
-                                        <div class="service-details__info__list__date">
-                                            <i class="icon-clock"></i>
-                                            12:00 am – 2:00 am
-                                        </div><!-- /.service-details__info__list__date -->
-                                        <div class="service-details__info__list__space">3 Spaces available</div>
-                                        <!-- /.service-details__info__space -->
-                                        <div class="service-details__info__list__btns"><a href="contact.html" class="refresh-d-thai-spa-btn refresh-d-thai-spa-btn--base service-details__info__list__btn"><span>Book
-                                                    appointment</span></a>
-                                        </div><!-- /.service-details__info__list__space -->
-                                    </li>
-                                </ul><!-- /.list-unstyled service-details__info__list -->
-                            </div><!-- /.service-details__info -->
-                        </div><!-- /.service-details__content -->
-                    </div><!-- /.col-md-12 col-lg-8 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.service-details -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Sensory Service Description Section End -->
 
         <!-- Duration Pricing Section Start -->
         <section class="duration-pricing-section" style="padding: 100px 0; background: linear-gradient(180deg, #141215 0%, #0e0c0f 100%); position: relative; overflow: hidden;">
@@ -48225,6 +47473,3 @@ function initLuxuryScrollReveals() {
 
 </html>
 ```
-
----
-
