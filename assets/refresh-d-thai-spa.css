@@ -17334,6 +17334,9 @@ body:has(.benefits-section) .page-header__title {
 }
 
 @media (max-width: 991px) {
+  .whatsapp-float {
+    bottom: 95px !important;
+  }
   .hero-trust-bar {
     margin-top: 40px !important;
     padding: 24px 0 !important;
