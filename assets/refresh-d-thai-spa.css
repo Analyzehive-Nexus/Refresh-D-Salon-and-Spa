@@ -17190,3 +17190,70 @@ body:has(.benefits-section) .page-header__title {
     font-size: 60px !important; /* md:text-6xl: 60px */
   }
 }
+
+/* ==========================================================================
+   MOBILE VIEW OPTIMIZATIONS (Viewport < 768px)
+   ========================================================================== */
+@media (max-width: 767px) {
+  /* 1. Reduce section paddings for a tighter, scroll-friendly experience */
+  .benefits-section,
+  .what-to-expect-section,
+  .book-now-section,
+  .faq-section,
+  .reviews-section {
+    padding: 60px 0 !important;
+  }
+
+  /* 2. Adjust hero header container padding */
+  .page-header {
+    padding-top: 110px !important;
+    padding-bottom: 70px !important;
+  }
+
+  /* 3. Scale down large inline heading font sizes to prevent awkward wrapping */
+  .page-header__title {
+    font-size: 32px !important;
+    line-height: 1.25 !important;
+  }
+  .what-to-expect-section h2,
+  .book-now-section h2 {
+    font-size: 34px !important;
+    line-height: 1.2 !important;
+  }
+  .benefits-section h3 {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  /* 4. Convert horizontal steps layout (number next to text) to a clean vertical stack */
+  .what-to-expect-section [style*="display: flex; align-items: stretch;"] {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  
+  .what-to-expect-section [style*="flex-shrink: 0; width: 90px;"] {
+    width: 100% !important;
+    height: 48px !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(201,147,116,0.1) !important;
+    justify-content: flex-start !important;
+    padding-left: 20px !important;
+  }
+
+  .what-to-expect-section [style*="padding: 28px 32px;"] {
+    padding: 20px !important;
+  }
+
+  /* 5. Optimize booking card padding and borders for small phone screens */
+  .hero-booking-card {
+    padding: 24px 20px !important;
+    border-radius: 20px !important;
+  }
+
+  /* 6. Avoid horizontal scrolls by locking outer container wrapping */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
