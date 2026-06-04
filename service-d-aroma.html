@@ -44,6 +44,7 @@
             }
         }
     </style>
+    <link rel="expect" href="#page-wrapper" blocking="render">
 </head>
 
 <body class="custom-cursor">
@@ -51,11 +52,8 @@
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
 
-    <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
-    </div>
-    <!-- /.preloader -->
-    <div class="page-wrapper">
+
+    <div class="page-wrapper" id="page-wrapper">
         <div class="topbar-one">
             <div class="container-fluid">
                 <div class="topbar-one__inner">
@@ -208,12 +206,12 @@
             </div>
         </section>
         <!-- page-header-end -->
-                <!-- Duration Pricing Section Start -->
+                <!-- Duration Pricing Section Start [COMMENTED OUT]
         <section class="duration-pricing-section" style="padding: 100px 0; background: linear-gradient(180deg, #141215 0%, #0e0c0f 100%); position: relative; overflow: hidden;">
-            <!-- Decorative background circle -->
+            [Comment: Decorative background circle ]
             <div style="position: absolute; top: -120px; right: -120px; width: 500px; height: 500px; border-radius: 50%; background: radial-gradient(circle, rgba(201,147,116,0.06) 0%, transparent 70%); pointer-events: none;"></div>
             <div class="container" style="position: relative; z-index: 1;">
-                <!-- Section Header -->
+                [Comment: Section Header ]
                 <div class="row justify-content-center" style="margin-bottom: 60px;">
                     <div class="col-lg-7 text-center">
                         <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: #c99374; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; gap: 12px;">
@@ -228,13 +226,13 @@
                     </div>
                 </div>
 
-                <!-- Cards -->
+                [Comment: Cards ]
                 <div class="row justify-content-center gutter-y-30">
 
-                    <!-- Card 1: 60 Minutes -->
+                    [Comment: Card 1: 60 Minutes ]
                     <div class="col-lg-4 col-md-6">
                         <div class="dur-card" style="position: relative; background: rgba(255,255,255,0.03); border: 1px solid rgba(201,147,116,0.15); border-radius: 24px; padding: 44px 36px 36px; text-align: center; transition: all 0.4s ease; backdrop-filter: blur(12px);">
-                            <!-- Duration pill -->
+                            [Comment: Duration pill ]
                             <div style="display: inline-block; background: rgba(201,147,116,0.1); border: 1px solid rgba(201,147,116,0.25); border-radius: 30px; padding: 6px 20px; margin-bottom: 24px;">
                                 <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #c99374;">60 Minutes</span>
                             </div>
@@ -252,12 +250,12 @@
                         </div>
                     </div>
 
-                    <!-- Card 2: 90 Minutes (Most Popular) -->
+                    [Comment: Card 2: 90 Minutes (Most Popular) ]
                     <div class="col-lg-4 col-md-6">
                         <div class="dur-card" style="position: relative; background: linear-gradient(135deg, #1a3028 0%, #0f1e16 100%); border: 2px solid #c99374; border-radius: 24px; padding: 44px 36px 36px; text-align: center; transition: all 0.4s ease; box-shadow: 0 24px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(201,147,116,0.2); transform: translateY(-8px);">
-                            <!-- Popular badge -->
+                            [Comment: Popular badge ]
                             <div style="position: absolute; top: -16px; left: 50%; transform: translateX(-50%); background: linear-gradient(90deg, #c99374, #e8b48a); color: #0e0c0f; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; padding: 6px 20px; border-radius: 30px; white-space: nowrap; box-shadow: 0 4px 16px rgba(201,147,116,0.4);">&#9733; Most Popular</div>
-                            <!-- Duration pill -->
+                            [Comment: Duration pill ]
                             <div style="display: inline-block; background: rgba(201,147,116,0.2); border: 1px solid rgba(201,147,116,0.4); border-radius: 30px; padding: 6px 20px; margin-bottom: 24px; margin-top: 8px;">
                                 <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #c99374;">90 Minutes</span>
                             </div>
@@ -275,10 +273,10 @@
                         </div>
                     </div>
 
-                    <!-- Card 3: 120 Minutes -->
+                    [Comment: Card 3: 120 Minutes ]
                     <div class="col-lg-4 col-md-6">
                         <div class="dur-card" style="position: relative; background: rgba(255,255,255,0.03); border: 1px solid rgba(201,147,116,0.15); border-radius: 24px; padding: 44px 36px 36px; text-align: center; transition: all 0.4s ease; backdrop-filter: blur(12px);">
-                            <!-- Duration pill -->
+                            [Comment: Duration pill ]
                             <div style="display: inline-block; background: rgba(201,147,116,0.1); border: 1px solid rgba(201,147,116,0.25); border-radius: 30px; padding: 6px 20px; margin-bottom: 24px;">
                                 <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #c99374;">120 Minutes</span>
                             </div>
@@ -299,7 +297,7 @@
                 </div>
             </div>
         </section>
-        <!-- Duration Pricing Section End -->
+        [COMMENTED OUT] Duration Pricing Section End -->
 
 <!-- Sensory Service Description Section Start -->
         <section class="sensory-description-section" style="padding: 110px 0; background: #0e0c0f; position: relative; overflow: hidden; border-top: 1px solid rgba(201,147,116,0.12);">

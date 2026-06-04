@@ -497,7 +497,7 @@ h6 {
 .block-title__decor {
   width: 21px;
   height: 14px;
-  background-image: url(../images/shapes/leaf-1-1.png);
+  background-image: url(images/shapes/leaf-1-1.png);
   background-repeat: no-repeat;
   background-position: top center;
   display: inline-block;
@@ -1104,7 +1104,7 @@ h6 {
   max-width: 300px;
   height: 324px;
   background-color: var(--refresh-d-thai-spa-gray, #f9f6f1);
-  background-image: url(../images/shapes/team-card-s-1-1.png);
+  background-image: url(images/shapes/team-card-s-1-1.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -2172,7 +2172,7 @@ h6 {
   margin-bottom: -60px;
   z-index: 10;
   background-color: var(--refresh-d-thai-spa-base, #c2a74e);
-  background-image: url(../images/shapes/contact-1-f-s-1.png);
+  background-image: url(images/shapes/contact-1-f-s-1.png);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -3613,7 +3613,7 @@ body.megamenu-popup-active .mobile-nav__content {
 --------------------------------------------------------------*/
 .funfact-one {
   background-color: var(--refresh-d-thai-spa-base, #c2a74e);
-  background-image: url(../images/shapes/funfact-bg-1-1.jpg);
+  background-image: url(images/shapes/funfact-bg-1-1.jpg);
   background-size: cover;
   background-position: center center;
   padding-top: 80px;
@@ -8564,7 +8564,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-color: var(--refresh-d-thai-spa-black, #1c1a1d);
   opacity: 0.3;
-  cursor: url(../images/close.png), auto;
+  cursor: url(images/close.png), auto;
 }
 
 .mobile-nav__content {
@@ -8773,7 +8773,7 @@ body.megamenu-popup-active .mobile-nav__content {
   -webkit-transition-delay: 0.3s;
   background-color: #000;
   opacity: 0.9;
-  cursor: url(../images/close.png), auto;
+  cursor: url(images/close.png), auto;
 }
 @media (max-width: 767px) {
   .search-popup__overlay {
@@ -8914,7 +8914,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/backgrounds/page-header-bg-1-1.jpg);
+  background-image: url(images/backgrounds/page-header-bg-1-1.jpg);
 }
 .page-header__bg::before {
   content: "";
@@ -8923,7 +8923,7 @@ body.megamenu-popup-active .mobile-nav__content {
   right: 0;
   bottom: -1px;
   top: 0;
-  background-image: url(../images/shapes/page-header-cloud.png);
+  background-image: url(images/shapes/page-header-cloud.png);
   background-repeat: repeat-x;
   animation: cloudMove 60s linear 0s infinite;
   background-position: bottom center;
@@ -9030,7 +9030,7 @@ body.megamenu-popup-active .mobile-nav__content {
 --------------------------------------------------------------*/
 .client-carousel {
   background-color: var(--refresh-d-thai-spa-base, #c2a74e);
-  background-image: url(../images/shapes/client-carousel-bg-1-1.jpg);
+  background-image: url(images/shapes/client-carousel-bg-1-1.jpg);
   background-size: cover;
   padding: 80px 0;
 }
@@ -9280,7 +9280,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 492px;
   z-index: 1;
   content: "";
-  background-image: url(../images/shapes/hero-slider-1-1.png);
+  background-image: url(images/shapes/hero-slider-1-1.png);
   background-position: bottom center;
   background-repeat: repeat-x;
   animation: cloudMove 60s linear 0s infinite;
@@ -16412,7 +16412,7 @@ body.boxed-wrapper .page-wrapper {
   bottom: 0;
   background-color: var(--refresh-d-thai-spa-black, #1c1a1d);
   opacity: 0.5;
-  cursor: url(../images/close.png), auto;
+  cursor: url(images/close.png), auto;
 }
 .sidebar-one__close {
   position: absolute;
@@ -16579,7 +16579,7 @@ body.boxed-wrapper .page-wrapper {
 }
 
 .main-slider-one__bg::after {
-  background-image: url(../images/shapes/hero-slider-1-1-dark.png);
+  background-image: url(images/shapes/hero-slider-1-1-dark.png);
 }
 
 body,
@@ -16986,7 +16986,7 @@ body,
 }
 
 .page-header__bg::before {
-  background-image: url(../images/shapes/page-header-cloud-dark.png);
+  background-image: url(images/shapes/page-header-cloud-dark.png);
 }
 
 .sidebar__projects__card__content {
@@ -17128,4 +17128,65 @@ body,
   opacity: 1;
   visibility: visible;
   transform: translateY(-50%) scale(1);
+}
+
+/* Cross-Document View Transitions */
+@view-transition {
+  navigation: auto;
+}
+
+/* Remove all transitions, animations, and view transition names from the navigation bar and its contents */
+.main-header,
+.main-header *,
+.main-header::before,
+.main-header::after,
+.main-header *::before,
+.main-header *::after,
+.sticky-header--cloned,
+.sticky-header--cloned *,
+.sticky-header--cloned::before,
+.sticky-header--cloned::after,
+.sticky-header--cloned *::before,
+.sticky-header--cloned *::after {
+  transition: none !important;
+  animation: none !important;
+  view-transition-name: none !important;
+}
+
+/* WhatsApp floating button transition configuration */
+.whatsapp-float {
+  view-transition-name: whatsapp-float;
+}
+
+/* Serif font style override for all gold/yellow text in the hero sections of all service detail pages */
+body:has(.sensory-description-section) .page-header .main-slider-one__sub-title,
+body:has(.sensory-description-section) .page-header .sec-title__tagline,
+body:has(.sensory-description-section) .page-header h2 em {
+  font-family: 'Cormorant', serif !important;
+}
+
+/* Specific overrides for the gold subtitle tagline in the hero section of all service detail pages */
+body:has(.sensory-description-section) .main-slider-one__sub-title {
+  text-transform: uppercase !important;
+  letter-spacing: 0.15em !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+/* Custom styling for all headings (h2 and .page-header__title) on all service detail pages */
+body:has(.sensory-description-section) h2:not(.footer-widget__title),
+body:has(.sensory-description-section) .page-header__title {
+  font-family: 'Cormorant', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+  line-height: 1.25 !important;
+  font-size: 36px !important; /* text-4xl: 36px */
+}
+
+@media (min-width: 768px) {
+  body:has(.sensory-description-section) h2:not(.footer-widget__title),
+  body:has(.sensory-description-section) .page-header__title {
+    font-size: 60px !important; /* md:text-6xl: 60px */
+  }
 }

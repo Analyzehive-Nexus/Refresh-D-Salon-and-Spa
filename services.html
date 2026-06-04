@@ -44,6 +44,7 @@
             }
         }
     </style>
+    <link rel="expect" href="#page-wrapper" blocking="render">
 </head>
 
 <body class="custom-cursor">
@@ -51,11 +52,8 @@
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
 
-    <div class="preloader">
-        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
-    </div>
-    <!-- /.preloader -->
-    <div class="page-wrapper">
+
+    <div class="page-wrapper" id="page-wrapper">
         <div class="topbar-one">
             <div class="container-fluid">
                 <div class="topbar-one__inner">
@@ -440,7 +438,7 @@
                 <div class="sec-title text-center" style="margin-bottom: 50px;">
                     <img src="assets/images/shapes/sec-title-s-1.png" alt="Ready for spa" class="sec-title__img">
                     <h6 class="sec-title__tagline" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 700; margin-bottom: 6px;">Ready for spa</h6>
-                    <h3 class="sec-title__title" style="font-family: 'Cormorant', serif; font-size: 40px; color: #fff; font-weight: 600; text-transform: none; margin-top: 0;">See Our Prices</h3>
+                    <h3 class="sec-title__title" style="font-family: 'Cormorant', serif; font-size: 40px; color: #fff; font-weight: 600; text-transform: none; margin-top: 0;">Available Durations</h3>
                     <div style="width: 40px; height: 2px; background: #c99374; margin: 12px auto 0;"></div>
                 </div><!-- /.sec-title -->
                 <div class="row gutter-y-30">
@@ -458,7 +456,7 @@
                                     <div class="membership-two-card__text" style="color: rgba(234,229,226,0.6); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px;">Essential oil massage for deep relaxation and stress relief</div>
                                 </div>
                             </div>
-                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 700;">â‚¹2,399</div>
+                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700;">60/90/120 mins</div>
                         </div>
                     </div>
                     <!-- Card 2: Traditional Thai Massage -->
@@ -475,7 +473,7 @@
                                     <div class="membership-two-card__text" style="color: rgba(234,229,226,0.6); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px;">Acupressure and passive yoga stretching to boost energy</div>
                                 </div>
                             </div>
-                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 700;">â‚¹1,999</div>
+                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700;">60/90/120 mins</div>
                         </div>
                     </div>
                     <!-- Card 3: Full Body Turkish Massage & Hammam -->
@@ -492,7 +490,7 @@
                                     <div class="membership-two-card__text" style="color: rgba(234,229,226,0.6); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px;">Exfoliating scrub and foam massage for soft, glowing skin</div>
                                 </div>
                             </div>
-                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 700;">â‚¹3,499</div>
+                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700;">60/90/120 mins</div>
                         </div>
                     </div>
                     <!-- Card 4: Hawaiian Lomi Lomi Massage -->
@@ -509,7 +507,7 @@
                                     <div class="membership-two-card__text" style="color: rgba(234,229,226,0.6); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px;">Continuous, flowing strokes that promote harmony and release</div>
                                 </div>
                             </div>
-                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 700;">â‚¹2,999</div>
+                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700;">60/90/120 mins</div>
                         </div>
                     </div>
                     <!-- Card 5: Rejuvenating Wine Massage -->
@@ -526,7 +524,7 @@
                                     <div class="membership-two-card__text" style="color: rgba(234,229,226,0.6); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px;">Antioxidant-rich massage therapy using luxury wine extracts</div>
                                 </div>
                             </div>
-                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 700;">â‚¹3,999</div>
+                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700;">60/90/120 mins</div>
                         </div>
                     </div>
                     <!-- Card 6: Premium Candle Massage -->
@@ -543,7 +541,7 @@
                                     <div class="membership-two-card__text" style="color: rgba(234,229,226,0.6); font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px;">Warm, nourishing wax from aromatic candles for deep moisture</div>
                                 </div>
                             </div>
-                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 700;">â‚¹2,999</div>
+                            <div class="membership-two-card__price" style="color: #c99374; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700;">60/90/120 mins</div>
                         </div>
                     </div>
                 </div><!-- /.row -->
