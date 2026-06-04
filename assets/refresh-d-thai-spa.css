@@ -17159,14 +17159,14 @@ body,
 }
 
 /* Serif font style override for all gold/yellow text in the hero sections of all service detail pages */
-body:has(.sensory-description-section) .page-header .main-slider-one__sub-title,
-body:has(.sensory-description-section) .page-header .sec-title__tagline,
-body:has(.sensory-description-section) .page-header h2 em {
+body:has(.benefits-section) .page-header .main-slider-one__sub-title,
+body:has(.benefits-section) .page-header .sec-title__tagline,
+body:has(.benefits-section) .page-header h2 em {
   font-family: 'Cormorant', serif !important;
 }
 
 /* Specific overrides for the gold subtitle tagline in the hero section of all service detail pages */
-body:has(.sensory-description-section) .main-slider-one__sub-title {
+body:has(.benefits-section) .main-slider-one__sub-title {
   text-transform: uppercase !important;
   letter-spacing: 0.15em !important;
   font-size: 15px !important;
@@ -17174,8 +17174,8 @@ body:has(.sensory-description-section) .main-slider-one__sub-title {
 }
 
 /* Custom styling for all headings (h2 and .page-header__title) on all service detail pages */
-body:has(.sensory-description-section) h2:not(.footer-widget__title),
-body:has(.sensory-description-section) .page-header__title {
+body:has(.benefits-section) h2:not(.footer-widget__title),
+body:has(.benefits-section) .page-header__title {
   font-family: 'Cormorant', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important;
   color: #ffffff !important;
   font-weight: 700 !important;
@@ -17185,8 +17185,8 @@ body:has(.sensory-description-section) .page-header__title {
 }
 
 @media (min-width: 768px) {
-  body:has(.sensory-description-section) h2:not(.footer-widget__title),
-  body:has(.sensory-description-section) .page-header__title {
+  body:has(.benefits-section) h2:not(.footer-widget__title),
+  body:has(.benefits-section) .page-header__title {
     font-size: 60px !important; /* md:text-6xl: 60px */
   }
 }
