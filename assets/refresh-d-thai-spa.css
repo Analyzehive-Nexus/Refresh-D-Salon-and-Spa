@@ -17337,6 +17337,10 @@ body:has(.benefits-section) .page-header__title {
   .whatsapp-float {
     bottom: 95px !important;
   }
+  .scroll-to-top {
+    bottom: 175px !important;
+    right: -28px !important;
+  }
   .hero-trust-bar {
     margin-top: 40px !important;
     padding: 24px 0 !important;
@@ -17355,5 +17359,20 @@ body:has(.benefits-section) .page-header__title {
     flex: 0 0 100% !important;
     justify-content: flex-start !important;
     padding-left: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-sticky-booking-bar__text {
+    display: none !important;
+  }
+  .mobile-sticky-booking-bar > div:last-child {
+    width: 100% !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+  }
+  .mobile-sticky-booking-bar a {
+    flex: 1 !important;
+    text-align: center !important;
   }
 }
