@@ -21287,7 +21287,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `index.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21428,7 +21428,7 @@ function initLuxuryScrollReveals() {
                             <h5 class="main-slider-one__sub-title" style="justify-content: flex-start; font-size: 16px; font-weight: 600; color: #c99374; display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                                 Get true wellness <img src="assets/images/shapes/slider-1-leaf.png" alt="Refresh D Thai Spa" class="leaf-float" style="max-height: 16px;">
                             </h5>
-                            <h2 class="page-header__title" style="font-size: 60px; line-height: 1.1; margin-bottom: 20px; font-family: 'Cormorant', serif; font-weight: 700; color: #fff;">Beauty & Spa</h2>
+                            <h2 class="page-header__title" style="font-size: 60px; line-height: 1.1; margin-bottom: 20px; font-family: 'Cormorant', serif; font-weight: 700; color: #fff;">Refresh D Thai Spa</h2>
                             <p style="color: rgba(234, 229, 226, 0.85); font-size: 16px; line-height: 1.6; font-family: 'Plus Jakarta Sans', sans-serif; margin: 0;">
                                 Indulge in our exquisite spa treatments to restore your inner balance.
                             </p>
@@ -23014,7 +23014,7 @@ function initLuxuryScrollReveals() {
 ### 🌐 File: `index-dark.html`
 
 ```html
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -23155,7 +23155,7 @@ function initLuxuryScrollReveals() {
                             <h5 class="main-slider-one__sub-title" style="justify-content: flex-start; font-size: 16px; font-weight: 600; color: #c99374; display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                                 Get true wellness <img src="assets/images/shapes/slider-1-leaf.png" alt="Refresh D Thai Spa" class="leaf-float" style="max-height: 16px;">
                             </h5>
-                            <h2 class="page-header__title" style="font-size: 60px; line-height: 1.1; margin-bottom: 20px; font-family: 'Cormorant', serif; font-weight: 700; color: #fff;">Beauty & Spa</h2>
+                            <h2 class="page-header__title" style="font-size: 60px; line-height: 1.1; margin-bottom: 20px; font-family: 'Cormorant', serif; font-weight: 700; color: #fff;">Refresh D Thai Spa</h2>
                             <p style="color: rgba(234, 229, 226, 0.85); font-size: 16px; line-height: 1.6; font-family: 'Plus Jakarta Sans', sans-serif; margin: 0;">
                                 Indulge in our exquisite spa treatments to restore your inner balance.
                             </p>
