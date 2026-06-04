@@ -17393,3 +17393,30 @@ body:has(.benefits-section) .page-header__title {
     border: none !important;
   }
 }
+
+/* Premium Mobile Nav Drawer Close Button Override */
+.mobile-nav__close {
+  position: absolute !important;
+  top: 25px !important;
+  right: 20px !important;
+  font-size: 20px !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  z-index: 9999 !important;
+  width: 40px !important;
+  height: 40px !important;
+  background: rgba(201, 147, 116, 0.15) !important;
+  border: 1px solid rgba(201, 147, 116, 0.3) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.mobile-nav__close:hover {
+  background: #c99374 !important;
+  color: #0e0c0f !important;
+  border-color: #c99374 !important;
+  transform: rotate(90deg) !important;
+}
